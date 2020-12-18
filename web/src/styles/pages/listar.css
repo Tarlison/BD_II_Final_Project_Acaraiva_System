@@ -1,0 +1,104 @@
+#likelist {
+  width: 100vw;
+  height: 100vh;
+  background: url("../../images/arvoreporra.svg") no-repeat 50% 80%;
+
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#likelist .like-menu{
+  position: relative;
+  /* background: #ffffff; */
+  /* border: 1px solid black; */
+  border-radius: 20px;
+  width: 100%;
+  max-width: 500px;
+
+  height: 50%;
+  max-height: 500px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 10px 10px 10px 10px;
+}
+
+.lista{
+  margin-top: 50px;
+  margin-right: 10px;
+  width: 350px;
+  background: #ffffff;
+}
+
+.lista td{
+  align-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 700;
+  height: 50px;
+}
+
+.lista th{
+  color: #9ec905;
+  background: #ffffff;
+}
+
+.lista tr:nth-child(odd){
+  background-color: #cdc9f8;
+}
+
+.lista tr{
+  justify-content: center;
+
+  width: 500px;
+  height: 40px;
+  background: #ade7f8;
+}
+
+#likelist  h1{
+  font-weight: 900;
+  color:#0c77f1;
+  font-size:50px;
+  margin:0 0 0 0px;
+}
+
+#likelist .like-menu h2{
+  color:rgb(73, 223, 80);
+  font-size: 30px;
+  font-weight: 900;
+}
+
+#likelist .like-menu li{
+  color:black;
+  font-weight: 900;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.delBtn{
+  width: 100px;
+  border-color: #f1c40f;
+  color: rgb(0, 0, 0);
+  background-image: linear-gradient(45deg, #f1c40f 50%, transparent 50%);
+  background-position: 100%;
+  background-size: 400%;
+  border-radius: 4px;
+  transition: background 350ms ease-in-out;
+}
+
+.delBtn:hover{
+  background-position: 0;
+}
+
+.delBtn span{
+  font-size: 25px;
+  font-weight: 700;
+}

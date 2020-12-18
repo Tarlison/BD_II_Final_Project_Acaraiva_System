@@ -1,0 +1,71 @@
+#recomendation {
+  width: 100vw;
+  height: 100vh;
+  background: url("../../images/arvoreporra.svg") no-repeat 70% 100%;
+  
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#recomendation .rec-menu{
+  position: relative;
+  /* background: #ffffff; */
+  /* border: 1px solid black; */
+  border-radius: 20px;
+
+  width: 100%;
+  max-width: 500px;
+
+  height: 50%;
+  max-height: 500px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 100px 10px 10px 10px;
+}
+
+#recomendation  h1{
+  color:#0c77f1;
+  font-size:50px;
+  line-height:1em;
+  margin:0 0 0 0px;
+}
+
+#recomendation .rec-menu h2{
+  color:rgb(73, 223, 80);
+  font-size: 30px;
+  font-weight: 900;
+}
+
+#recomendation .rec-menu li{
+  list-style-type: lower-alpha;
+  color:black;
+  font-weight: 900;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.recBtn{
+  width: 200px;
+  background: #ec3e3ee3;
+  border: 1px solid rgb(224, 22, 22);
+  border-radius: 10px;
+  height: 50px;
+}
+
+.recBtn:hover{
+  background: #fa0000e8;
+  color: #ffffff;
+}
+
+.recBtn span{
+  font-size: 25px;
+  font-weight: 900;
+}
+
