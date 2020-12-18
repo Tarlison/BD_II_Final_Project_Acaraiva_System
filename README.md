@@ -1,15 +1,17 @@
 # Final_Project_BDII_2020.1
 
-O SISTEMA ACARAIVA
-        Um sistema de recomendação para leitores. O sitema faz recomendação com base nos livros que você
-        costuma ler, além de armazenar sua lista de livros lidos! para que você possa manter o controle e
-        assim não se perca na leitura. É preciso se cadastrar no sistema antes de entrar. Caso você entre 
-        no sistema sem cadastrar nenhum livro, os livros mais lidos por todos serão recomendados!.
+O SISTEMA ACARAIVA:
+
+            Um sistema de recomendação para leitores. O sitema faz recomendação com base nos livros que você
+            costuma ler, além de armazenar sua lista de livros lidos! para que você possa manter o controle e
+            assim não se perca na leitura. É preciso se cadastrar no sistema antes de entrar. Caso você entre 
+            no sistema sem cadastrar nenhum livro, os livros mais lidos por todos serão recomendados!.
 
 Bancos de dados utilizados
-        *   MongoDB
-        *   SqLite
-        *   Neo4j
+
+            *   MongoDB
+            *   SqLite
+            *   Neo4j
 
 Instruções para a execução
         Nota: É preciso ter acesso ao MongoDB e ao Neo4j na máquina, além do NPM e YARN.
